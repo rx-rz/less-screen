@@ -28,10 +28,10 @@ export const Features = () => {
 
   return (
     <>
-      <div className="max-w-6xl mx-auto my-24 lg:block hidden">
+      <div className="max-w-6xl mx-auto my-24 lg:block hidden" id="product">
         <div className="flex relative w-full justify-between">
           <div className="h-[650px] sticky top-24" id="sticky-side">
-            <div className="relative h-[650px] w-[320px] flex items-center justify-center">
+            <div className="relative h-[630px] w-[298px] flex items-center justify-center">
               <img
                 src="/iphone-frame.png"
                 className="h-full w-full absolute inset-0 z-20"
@@ -57,7 +57,7 @@ export const Features = () => {
           <div className="w-fit">
             <div className="h-screen" id="scroll-side-1">
               <p className="font-bold text-2xl lg:text-3xl mb-3 sub-heading">
-                Unlock your Focus
+                Stay Focused with a Minimalist Homescreen
               </p>
               <p className="max-w-lg text-lg  opacity-80">
                 Our minimalist homescreen replaces endless rows of colorful,
@@ -75,7 +75,7 @@ export const Features = () => {
             </div>
             <div className="h-screen" id="scroll-side-2">
               <p className="font-bold text-2xl lg:text-3xl mb-3 sub-heading">
-                Unlock your Time
+                Master Your Time with Smart Limits
               </p>
               <p className="max-w-lg text-lg  opacity-80">
                 Get unprecedented control over your digital habits with
@@ -92,7 +92,7 @@ export const Features = () => {
             </div>
             <div className="h-screen" id="scroll-side-3">
               <p className="font-bold text-2xl lg:text-3xl mb-3 sub-heading">
-                Unlock your Perception
+                Minimize Distractions With Grayscale
               </p>
               <p className="max-w-lg text-lg  opacity-80">
                 Transform your device's visual appeal with LessScreen's
@@ -127,10 +127,10 @@ export const Features = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-6xl mx-auto w-[95%] lg:hidden mb-16">
+      <div className="max-w-6xl mx-auto w-[95%] lg:hidden mb-16" id="product">
         <div className="mb-10">
           <p className="font-bold text-xl lg:text-3xl mb-3 sub-heading">
-            Unlock your Focus
+            Stay Focused with a Minimalist Homescreen
           </p>
           <p className="max-w-lg  md:text-lg  opacity-80">
             Our minimalist homescreen replaces endless rows of colorful,
@@ -164,7 +164,7 @@ export const Features = () => {
         </div>
         <div className="mb-10">
           <p className="font-bold text-xl lg:text-3xl mb-3 sub-heading">
-            Unlock your Time
+            Master Your Time with Smart Limits
           </p>
           <p className="max-w-lg  md:text-lg  opacity-80">
             Get unprecedented control over your digital habits with
@@ -198,7 +198,7 @@ export const Features = () => {
         </div>
         <div className="mb-10">
           <p className="font-bold text-xl lg:text-3xl mb-3 sub-heading">
-            Unlock your Perception
+            Minimize Distractions With Grayscale
           </p>
           <p className="max-w-lg  md:text-lg  opacity-80">
             Transform your device's visual appeal with LessScreen's intelligent
@@ -232,7 +232,7 @@ export const Features = () => {
         </div>
         <div className="mb-10">
           <p className="font-bold text-xl lg:text-3xl mb-3 sub-heading">
-            Unlock your Understanding
+            Take Control with Actionable Insights
           </p>
           <p className="max-w-lg  md:text-lg  opacity-80">
             Transform your relationship with technology through LessScreen's

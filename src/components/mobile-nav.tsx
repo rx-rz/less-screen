@@ -9,10 +9,10 @@ export const MobileNav = () => {
         isOpen && "bg-[#141417]"
       }`}
     >
-      <div
-        className={`flex justify-between w-full ${isOpen && "px-4 py-2"}`}
-      >
-        <div className="text-xl font-bold">LESSSCREEN</div>
+      <div className={`flex justify-between w-full ${isOpen && "px-4 py-2"}`}>
+        <a href="/">
+          <img src="/logo.webp" alt="" className="w-12 h-12" />
+        </a>
         <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X /> : <AlignJustify />}
         </button>
