@@ -15,12 +15,12 @@ export const FAQ = ({ question, answer }: Props) => {
       onClick={() => setIsOpen(!isOpen)}
     >
       <summary className="flex justify-between items-center ">
-        <p className="text-lg w-[85%]">{question}</p>
+        <p className="md:text-lg w-[85%]">{question}</p>
         <button className="w-fit">
           {!isOpen ? <Plus stroke="#19191a" /> : <X stroke="#19191a" />}
         </button>
       </summary>
-      <p className="mt-6 text-xs md:text-sm">{answer}</p>
+      <p className="mt-6 text-xs md:text-sm opacity-80">{answer}</p>
     </details>
   );
 };

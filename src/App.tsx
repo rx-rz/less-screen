@@ -203,7 +203,7 @@ function App() {
         <h1 className="md:text-4xl text-3xl lg:text-6xl font-bold mb-6 sub-heading">
           The Ultimate App to Eliminate <br /> Phone Distractions
         </h1>
-        <p className=" text-lg lg:text-xl md:mb-8 mb-4 max-w-96 mx-auto md:max-w-max">
+        <p className="  lg:text-xl md:mb-8 mb-4 max-w-96 mx-auto md:max-w-max">
           Join 50,000+ users on a journey to mindful technology use and improved
           wellbeing
         </p>
@@ -220,7 +220,7 @@ function App() {
         <p className="font-bold text-2xl lg:text-3xl mb-3 sub-heading">
           Finally Focus.
         </p>
-        <p className="max-w-lg text-lg mx-auto ">
+        <p className="max-w-lg lg:text-lg mx-auto opacity-80">
           Backed by behavioral science and cognitive psychology, our
           comprehensive toolkit helps you build a healthier relationship with
           your smartphone, supported by research-proven methods for digital
@@ -236,7 +236,7 @@ function App() {
           <h3 className="text-lg font-bold text-white my-3 sub-heading">
             Minimalist Homescreen
           </h3>
-          <p className=" text-sm leading-relaxed">
+          <p className=" text-sm leading-relaxed opacity-80">
             A clutter-free, search-focused interface reduces cognitive load by
             up to 20%, helping your brain stay focused and calm. Research shows
             minimal interfaces significantly decrease unconscious phone checking
@@ -249,7 +249,7 @@ function App() {
           <h3 className="text-lg font-bold text-white my-3 sub-heading">
             Intelligent Usage Limits
           </h3>
-          <p className=" text-sm leading-relaxed">
+          <p className=" text-sm leading-relaxed opacity-80">
             Leveraging behavioral psychology, our smart limits adapt to your
             patterns. Studies show implementing micro-boundaries reduces
             excessive screen time by 30% within 2 weeks, while maintaining
@@ -262,7 +262,7 @@ function App() {
           <h3 className="text-lg font-bold text-white my-3 sub-heading">
             Mindful Breaks
           </h3>
-          <p className=" text-sm leading-relaxed">
+          <p className=" text-sm leading-relaxed opacity-80">
             Real-time monitoring triggers scientifically-timed breaks during
             extended sessions. Research indicates 5-minute breaks every 30
             minutes of continuous use significantly reduce digital fatigue and
@@ -275,7 +275,7 @@ function App() {
           <h3 className="text-lg font-bold text-white my-3 sub-heading">
             Grayscale Mode
           </h3>
-          <p className=" text-sm leading-relaxed">
+          <p className=" text-sm leading-relaxed opacity-80">
             Automatically removes colorful distractions by enabling grayscale
             during high-risk periods. Studies show grayscale interfaces reduce
             impulsive app checking by 10% and decrease overall screen time by
@@ -288,7 +288,7 @@ function App() {
           <h3 className="text-lg font-bold text-white my-3 sub-heading">
             Night Guardian
           </h3>
-          <p className=" text-sm leading-relaxed">
+          <p className=" text-sm leading-relaxed opacity-80">
             Enforces healthy sleep hygiene by limiting late-night usage. Based
             on circadian rhythm research, this feature helps maintain natural
             melatonin production and improve sleep quality.
@@ -300,7 +300,7 @@ function App() {
           <h3 className="text-lg font-bold text-white my-3 sub-heading">
             Pre-Launch Awareness
           </h3>
-          <p className=" text-sm leading-relaxed">
+          <p className=" text-sm leading-relaxed opacity-80">
             Implements a mindful pause before app launches, reducing impulsive
             usage by 48%. Users set intentional time limits per session,
             promoting conscious consumption rather than mindless scrolling.
@@ -319,7 +319,7 @@ function App() {
             </span>
             <span className="text-gray-500">and there's a good reason.</span>
           </h2>
-          <p className=" text-lg md:text-xl mb-12 max-w-3xl">
+          <p className="opacity-80 lg:text-xl mb-12 max-w-3xl">
             Peoples lives have been changed forever with the use of our app,
             leading to unspeakable amounts of gratitude.
           </p>
@@ -355,7 +355,7 @@ function App() {
         <h2 className="text-2xl md:text-4xl font-bold font-dm_sans text-center">
           Frequently Asked Questions
         </h2>
-        <p className="text-center mt-3 mb-10 text-xl ">
+        <p className="text-center mt-3 mb-10 md:text-xl opacity-80">
           Get quick answers to the most common questions about our platform.
         </p>
         <div className="border-2 [&>details]:border-b [&>details:last]:border-none border-[#19191a] px-4 rounded-xl">
@@ -397,8 +397,8 @@ function App() {
       <footer className="max-w-6xl mx-auto w-[95%]">
         <div className="flex flex-col md:flex-row gap-6 md:gap-20  w-full border-b border-[#19191a] pb-4">
           <div>
-            <p className="text-4xl">Logo</p>
-            <p className="text-xs  mt-2">The Flagship App to Quit Gambling.</p>
+            <p className="text-3xl font-bold">Lessscreen</p>
+            <p className="text-xs  md:mt-2 mt-1">The flagship app to Reduce screen time.</p>
           </div>
           <div>
             <h2 className="text-xl font-medium mb-2">About</h2>
@@ -416,7 +416,7 @@ function App() {
             </div>
           </div>
         </div>
-        <p className="text-xs my-6">QUITTR LLC © All rights reserved</p>
+        <p className="text-xs my-6">LESSSCREEN LLC © All rights reserved</p>
       </footer>
     </main>
   );
@@ -432,7 +432,7 @@ const TestimonialCard = ({
   imageUrl: string;
 }) => (
   <div className="bg-[#242831] testimonial-card rounded-lg lg:p-8 md:p-6 p-4 flex flex-col h-full backdrop-filter backdrop-blur-lg border border-[#161617]  w-fit shadow-white/20">
-    <blockquote className=" text-lg leading-relaxed mb-8 flex-grow">
+    <blockquote className=" md:text-lg leading-relaxed mb-8 flex-grow">
       "{quote}"
     </blockquote>
     <div className="flex items-center gap-3">
