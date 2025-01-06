@@ -14,17 +14,39 @@ export const Features = () => {
     }
   }, [currentVideo]);
 
-  useEffect(() => {
-    videos.forEach((video, index) => {
-      ScrollTrigger.create({
-        trigger: `#scroll-side-${index + 1}`,
-        start: "top center",
-        end: "bottom center",
-        onEnter: () => setCurrentVideo(video),
-        onEnterBack: () => setCurrentVideo(video),
-      });
+useEffect(() => {
+  let currentIndex = -1;
+
+  videos.forEach((video, index) => {
+    ScrollTrigger.create({
+      trigger: `#scroll-side-${index + 1}`,
+      start: "top center",
+      end: "bottom center",
+      onEnter: () => {
+        if (currentIndex !== index) {
+          currentIndex = index;
+          setCurrentVideo(video);
+          gsap.fromTo(
+            videoRef.current,
+            { opacity: 0 },
+            { opacity: 1, duration: 1 }
+          );
+        }
+      },
+      onEnterBack: () => {
+        if (currentIndex !== index) {
+          currentIndex = index;
+          setCurrentVideo(video);
+          gsap.fromTo(
+            videoRef.current,
+            { opacity: 0 },
+            { opacity: 1, duration: 1 }
+          );
+        }
+      },
     });
-  }, [videos]);
+  });
+}, [videos]);
 
   return (
     <>

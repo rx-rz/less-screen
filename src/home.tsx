@@ -1,6 +1,5 @@
 import { AlarmClock, Home, Moon, Palette, Pause, Target } from "lucide-react";
 import "./App.css";
-import { FAQ } from "./components/faq";
 import { DownloadButtonOne } from "./components/download-btn-one";
 import { DownloadButtonTwo } from "./components/download-btn-two";
 import { Features } from "./components/features";
@@ -198,7 +197,7 @@ export const HomePage = () => {
           <DownloadButtonTwo />
         </div>
       </div> */}
-      <div className="max-w-xl mx-auto mt-24 mb-12 md:mb-20 w-[90%]" id="faq">
+      {/* <div className="max-w-xl mx-auto mt-24 mb-12 md:mb-20 w-[90%]" id="faq">
         <h2 className="text-2xl md:text-4xl font-bold font-dm_sans text-center">
           Frequently Asked Questions
         </h2>
@@ -223,7 +222,7 @@ export const HomePage = () => {
             answer="QUITTR focuses specifically on porn addiction, blending science-backed technologies with tailored features like streak tracing and community support."
           />
         </div>
-      </div>
+      </div> */}
       <div
         id="download-now"
         className="max-w-6xl w-[95%] mx-auto md:mb-24 mb-12"
