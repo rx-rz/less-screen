@@ -6,7 +6,7 @@ export const DownloadButtonTwo = () => {
     >
       <img
         src="/playstore-btn.webp"
-        className="max-w-[120px] rounded-xl border"
+        className="max-w-[140px] rounded-xl border"
         alt=""
       />
     </a>
