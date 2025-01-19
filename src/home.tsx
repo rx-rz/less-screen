@@ -10,35 +10,35 @@ export const HomePage = () => {
       quote:
         "As a busy mom of two, LessScreen helped me set better boundaries with my phone. I love how I can customize limits for work hours and family time. My screen time is down 40% and I feel more present with my kids.",
       name: "Sarah K.",
-      imageUrl: "/api/placeholder/40/40",
+      imageUrl: "https://randomuser.me/api/portraits/women/31.jpg",
       job: "Working Mom",
     },
     {
       quote:
         "The app usage tracking was eye-opening. I had no idea I was spending 4 hours daily on social media. LessScreen's reminders helped me focus better on my studies, and my grades improved this semester!",
       name: "Tom R.",
-      imageUrl: "/api/placeholder/40/40",
+      imageUrl: "https://randomuser.me/api/portraits/men/33.jpg",
       job: "College Student",
     },
     {
       quote:
         "Finally, a launcher that respects privacy! All data stays on my device, and the clean interface helps me stay productive. The search feature is incredibly fast and efficient.",
       name: "Mike L.",
-      imageUrl: "/api/placeholder/40/40",
+      imageUrl: "https://randomuser.me/api/portraits/men/23.jpg",
       job: "Tech Professional",
     },
     {
       quote:
         "I need my phone for work, but was struggling with endless scrolling. LessScreen lets me set different limits for work apps vs social apps. It's the perfect balance of productivity and wellbeing.",
       name: "Ava P.",
-      imageUrl: "/api/placeholder/40/40",
+      imageUrl: "https://randomuser.me/api/portraits/women/13.jpg",
       job: "Digital Artist",
     },
     {
       quote:
         "The simple, clear interface makes it easy to find what I need. The reminders are gentle but effective, and I'm spending more time in my garden instead of on my phone. It's exactly what I needed.",
       name: "James W.",
-      imageUrl: "/api/placeholder/40/40",
+      imageUrl: "https://randomuser.me/api/portraits/men/13.jpg",
       job: "Retired Teacher",
     },
   ];
