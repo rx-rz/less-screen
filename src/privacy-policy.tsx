@@ -8,7 +8,7 @@ export const PrivacyPolicy = () => {
 
         <section className="mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-4">
-            1. Owner and Data Controller
+            Owner and Data Controller
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4">
             Abdul-Mujeeb Aliu, United Kingdom
@@ -21,7 +21,7 @@ export const PrivacyPolicy = () => {
 
         <section className="mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-4">
-            2. How collected Data is used
+            How collected Data is used
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4">
             We, as the Data Controller, may use the data we collect only to:
@@ -38,7 +38,7 @@ export const PrivacyPolicy = () => {
 
         <section className="mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-4">
-            3. Types of Data collected
+            Types of Data collected
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4">
             Among the types of Personal Data that this Application collects, by
@@ -60,7 +60,7 @@ export const PrivacyPolicy = () => {
 
         <section className="mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-4">
-            4. Mode and place of storing and processing the Data
+            Mode and place of storing and processing the Data
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4">
             The Owner takes modern technical and organizational measures to
@@ -86,7 +86,7 @@ export const PrivacyPolicy = () => {
 
         <section className="mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-4">
-            5. Detailed information on the processing of Personal Data
+            Detailed information on the processing of Personal Data
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4">
             For this application we are using the following services:
@@ -192,7 +192,7 @@ export const PrivacyPolicy = () => {
 
         <section className="mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-4">
-            6. The rights of Users
+            The rights of Users
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4">
             Users may exercise certain rights regarding their Data processed by
@@ -247,7 +247,7 @@ export const PrivacyPolicy = () => {
 
         <section className="mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold mb-2 sm:mb-4">
-            7. Additional information about Data collection and processing
+            Additional information about Data collection and processing
           </h2>
 
           <div className="mb-6">
